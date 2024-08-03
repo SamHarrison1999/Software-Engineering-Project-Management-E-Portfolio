@@ -33,6 +33,22 @@ body {
   transform: scale(1.05);
 }
 
+@media (min-width: 576px) {
+  .dropdown-menu {
+    opacity: 0;
+    display: block;
+    transition: all 0.2s;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
+
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
