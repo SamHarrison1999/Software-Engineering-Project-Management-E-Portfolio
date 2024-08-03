@@ -17,6 +17,22 @@ html {
   line-height: 1.4;
 }
 
+body {
+  padding-top: 56px;
+}
+
+.row {
+  padding-top: 30px;
+}
+
+.card {
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
