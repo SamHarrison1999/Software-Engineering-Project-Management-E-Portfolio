@@ -25,6 +25,10 @@ body {
   padding-top: 30px;
 }
 
+.accordion {
+  padding-top: 30px;
+}
+
 .card {
   transition: all 0.3s;
 }
